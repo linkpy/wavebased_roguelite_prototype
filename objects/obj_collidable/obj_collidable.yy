@@ -1,0 +1,72 @@
+{
+    "id": "fbec293e-51cf-4312-abed-ee9429cb1a6a",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_collidable",
+    "eventList": [
+        
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "72c9822c-0792-4d75-b959-a6419a035820",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "block_players",
+            "varType": 3
+        },
+        {
+            "id": "406e91a5-0218-412e-a11a-c2dd03c7057f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "block_enemies",
+            "varType": 3
+        },
+        {
+            "id": "915e08d1-2248-45ea-bc93-6e376d462aef",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "block_entities",
+            "varType": 3
+        }
+    ],
+    "solid": false,
+    "spriteId": "70fe246f-56f9-4e24-9c95-e92a8b15e58b",
+    "visible": true
+}
