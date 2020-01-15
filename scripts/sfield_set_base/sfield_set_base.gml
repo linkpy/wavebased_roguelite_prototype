@@ -3,4 +3,4 @@
 /// @param newbase
 
 gml_pragma("forceinline");
-return sfield_create(argument1, argument0[1], argument0[2]);
+argument0[@ 0] = argument1;

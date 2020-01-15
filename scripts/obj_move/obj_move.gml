@@ -9,6 +9,14 @@ var dx = argument0;
 var dy = argument1;
 var spd = argument2;
 
+// arguments validation and correction
+var len = vec_length(dx, dy);
+
+if( len > 1 ) {
+	dx /= len;
+	dy /= len;
+}
+
 // displacement
 var xx = dx * spd * delta_time / 1000000;
 var yy = dy * spd * delta_time / 1000000;

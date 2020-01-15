@@ -47,3 +47,8 @@ enum PlayerBaseStatsFields {
 	MagazineSize    = 6,
 	ReloadTime      = 1.2
 }
+
+/////////////////////////////////////////////////////////////////////
+// globals
+global.paused = false;
+global.item_store = -1;
