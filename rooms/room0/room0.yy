@@ -43,7 +43,7 @@
         },
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "collision",
+            "name": "collision_map",
             "id": "922d374c-02dd-4511-aa73-f4e887a04b41",
             "depth": 100,
             "grid_x": 32,

@@ -17,3 +17,33 @@ enum ObjectCollisionKinds {
 	// blocked by all blocking objects.
 	All			= 0x07,
 }
+
+/////////////////////////////////////////////////////////////////////
+// stats fields
+enum StatsFields {
+	MaxHealth,
+	Invulnerability,
+	MovementSpeed,
+	ShootRate,
+	ShootSpread,
+	ShootDamage,
+	MaxAmmo,
+	MagazineSize,
+	ReloadTime,
+	
+	Count
+}
+
+/////////////////////////////////////////////////////////////////////
+// player base stats field
+enum PlayerBaseStatsFields {
+	MaxHealth	    = 80,	
+	Invulnerability = 1.5,
+	MovementSpeed   = 250,
+	ShootRate		= 1.5,
+	ShootSpread     = 4,
+	ShootDamage     = 5,
+	MaxAmmo         = 60,
+	MagazineSize    = 6,
+	ReloadTime      = 1.2
+}
