@@ -4,6 +4,13 @@ gml_pragma("global", "constants()");
 
 
 /////////////////////////////////////////////////////////////////////
+// camera
+#macro CAM_MOTION_FACTOR         0.1
+#macro CAM_RECOIL_REDUC_FACTOR   0.2
+#macro CAM_SHAKE_REDUC_FACTOR    0.08
+
+
+/////////////////////////////////////////////////////////////////////
 // kinds of the different object.
 enum ObjectCollisionKinds {
 	// isn't blocked by any collidable objects
@@ -39,14 +46,34 @@ enum StatsFields {
 enum PlayerBaseStatsFields {
 	MaxHealth	    = 80,	
 	Invulnerability = 1.5,
-	MovementSpeed   = 250,
-	ShootRate		= 1.5,
+	MovementSpeed   = 350,
+	ShootRate		= 2.5,
 	ShootSpread     = 4,
-	ShootDamage     = 5,
+	ShootDamage     = 9,
 	MaxAmmo         = 60,
 	MagazineSize    = 6,
-	ReloadTime      = 1.2
+	ReloadTime      = 1.5
 }
+
+/////////////////////////////////////////////////////////////////////
+// enemy triangle
+enum EnemyTriangleBaseStatsFields {
+	MaxHealth	    = 32,	
+	Invulnerability = 0,
+	MovementSpeed   = 300,
+	ShootRate		= 1,
+	ShootSpread     = 0,
+	ShootDamage     = 3,
+	MaxAmmo         = 0,
+	MagazineSize    = 0,
+	ReloadTime      = 0
+}
+
+enum EnemyTriangleConfiguration {
+	PlayerChaseRange = 500,
+	HitFreezeCount   = 5
+}
+
 
 /////////////////////////////////////////////////////////////////////
 // globals

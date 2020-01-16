@@ -12,13 +12,13 @@ if( oid.invulnerability_time == 0 ) {
 	oid.health_points -= amnt;
 	
 	// text indicator color
-	var col;
+	var col = c_black;
 	
 	// if the bullet targets the players
 	if( object_collision_mask & ObjectCollisionKinds.Player != 0 )
 		col = c_red;
 	// if the bullet targets the enemies
-	if( object_collision_kind & ObjectCollisionKinds.Enemy != 0 )
+	if( object_collision_mask & ObjectCollisionKinds.Enemy != 0 )
 		col = c_white;
 	
 	// spawn the text indicator
@@ -39,4 +39,7 @@ if( oid.invulnerability_time == 0 ) {
 		invulnerability_time = sfield_compute(sf_invulnerability);
 		fsm_switch_state(fsm_hurt_state);
 	}
+	return true;
 }
+
+return false;

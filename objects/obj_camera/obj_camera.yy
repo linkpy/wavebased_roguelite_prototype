@@ -2,18 +2,8 @@
     "id": "5b0d5c45-7637-4c4a-b768-0e47f628ab7d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ob_camera",
+    "name": "obj_camera",
     "eventList": [
-        {
-            "id": "46a9ab2f-f723-4fd5-bfcc-961246f7f68e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "5b0d5c45-7637-4c4a-b768-0e47f628ab7d"
-        },
         {
             "id": "e45eee39-4776-4c7b-8017-03fc16f32a59",
             "modelName": "GMEvent",

@@ -17,6 +17,8 @@ if( argument0 == ev_step and argument1 == ev_step_normal ) {
 			shoot_time = 1 / sfield_compute(sf_shoot_rate);
 			// decrease ammo in magazine
 			magazine--;
+			// apply recoil
+			obj_camera.recoil_amount += 10;
 			
 			// spawn displacement
 			var dxx = lengthdir_x(64, aim_direction);

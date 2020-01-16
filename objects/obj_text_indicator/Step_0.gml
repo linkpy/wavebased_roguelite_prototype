@@ -8,4 +8,4 @@ if( lifetime <= 0 )
 	instance_destroy(id);
 
 // position animation
-y = initial_y + sin(pi * (1 - lifetime / max_lifetime)) * 96;
+y = initial_y - sin(pi * (1 - lifetime / max_lifetime)) * 96;

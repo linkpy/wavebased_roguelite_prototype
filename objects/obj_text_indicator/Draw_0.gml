@@ -12,7 +12,7 @@ draw_set_valign(fa_center);
 draw_set_font(fnt_ingame_gui);
 
 // draw text indicator
-draw_outlined_text(x, y, text, outline_color, text_color, 2, 2, 0);
+draw_outlined_text(x, y, text, outline_color, text_color, 1, 1, 0);
 
 // reset alpha
 draw_set_alpha(1);

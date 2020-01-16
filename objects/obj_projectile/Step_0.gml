@@ -21,7 +21,10 @@ var obj = collision_rectangle(
 );
 
 // if there is a collision
-if( obj != noone ) 
+if( obj != noone ) {
 	// if this is a valid collision
-	if( obj.object_collision_kind & object_collision_mask != 0 ) 
+	if( obj.object_collision_kind & object_collision_mask != 0 ) {
 		obj_hurt(obj, damage_amount);
+		instance_destroy(id);
+	}
+}
