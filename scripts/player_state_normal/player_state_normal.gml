@@ -26,7 +26,7 @@ if( argument0 == ev_step and argument1 == ev_step_normal ) {
 			obj_spawn_projectile(
 				spr_proj_player_bullet,
 				x + dxx, y + dyy,
-				aim_direction, 800,
+				aim_direction, 1200,
 				sfield_compute(sf_shoot_damage),
 				ObjectCollisionKinds.Enemy
 			);
