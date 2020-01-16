@@ -52,3 +52,10 @@ enum PlayerBaseStatsFields {
 // globals
 global.paused = false;
 global.item_store = -1;
+
+global.key_left = ord("Q");
+global.key_right = ord("D");
+global.key_up = ord("Z");
+global.key_down = ord("S");
+global.key_interact = ord("E");
+global.key_pause = vk_escape;
